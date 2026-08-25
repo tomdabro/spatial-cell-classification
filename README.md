@@ -1,10 +1,10 @@
 # spatial-cell-classification
 
-Machine learning pipeline for cell detection and classification on confocal microscopy images, with spatial transcriptomics analysis. Built as a course research project at the Department of Immunotechnology, Lund University (Medicon Village, 2025).
+Machine learning pipeline for cell detection and classification on microscopy images, with spatial transcriptomics analysis. Built for any spatial biology dataset.
 
 ## Overview
 
-The pipeline classifies cells in confocal microscopy images as part of a spatial scoring system in ovarian cancer research. It combines image-based cell detection with spatial transcriptomics analysis to support diagnostic-tool development.
+The pipeline detects and classifies cells in microscopy images and combines the results with spatial transcriptomics analysis. It is designed to be dataset-agnostic: the same workflow applies to different tissues, stains, and imaging modalities.
 
 ## Repository structure
 
@@ -36,7 +36,7 @@ python spatial/run_scanpy.py --input <expression_matrix.h5ad>
 
 ## Data
 
-Patient-derived microscopy images and expression data are not included; they are confidential and cannot be shared publicly. The pipeline is demonstrated with structure only.
+Source images and expression data are not included; they belong to the originating research projects and cannot be shared publicly. The pipeline is demonstrated with structure only.
 
 ## License
 
